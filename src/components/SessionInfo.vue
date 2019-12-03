@@ -5,7 +5,7 @@
         <img :src="speakerIcon">
       </div>
       <div class="data">
-        <div class="session_time">{{ sessionStart | moment }} - {{ sessionEnd | moment }}</div>
+        <div class="session_time">{{ sessionStart }} - {{ sessionEnd }}</div>
         <div class="session_title">{{ sessionTitle }}</div>
         <div class="speaker_name">{{ speakerName }}</div>
       </div>
@@ -24,9 +24,9 @@
     flex-wrap: wrap;
   }
   .icon {
-    width: calc((26vw / 16) * 9);
-    height: calc((26vw / 16) * 9);
-    padding: calc((2vw / 16) * 9);
+    width: calc((22vw / 16) * 9);
+    height: calc((22vw / 16) * 9);
+    padding: calc((4vw / 16) * 9);
     object-fit: contain;
   }
   .icon img {
@@ -37,7 +37,7 @@
   }
   .data {
     flex: 1;
-    padding: calc((2vw / 16) * 9) calc((4vw / 16) * 9);
+    padding: calc((4vw / 16) * 9) calc((4vw / 16) * 9) calc((4vw / 16) * 9) 0;
     text-align: left;
     line-height: 1.7;
   }
