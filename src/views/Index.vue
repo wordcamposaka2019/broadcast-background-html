@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <div id="SlideView" class="slide_view"><img alt="Vue logo" src="../assets/logo.png"></div>
-    <EventInfo class="event_info"  msg="Welcome to Your Vue.js App"/>
-    <SessionInfo class="session_info" msg="Welcome to Your Vue.js App"/>
-    <div id="SpeakerView" class="speaker_view"><img alt="Vue logo" src="../assets/logo.png"></div>
+    <div id="SlideView" class="slide_view"></div>
+    <EventInfo class="event_info"/>
+    <SessionInfo class="session_info"/>
+    <div id="SpeakerView" class="speaker_view"></div>
   </div>
 </template>
 
@@ -33,21 +33,18 @@ export default {
   .slide_view {
     width: 70vw;
     height: calc((70vw / 16) * 9);
-    background-color: #330000;
   }
   .event_info {
     width: 30vw;
     height: calc((70vw / 16) * 9);
-    background-color: #003300;
   }
   .session_info {
     width: 70vw;
     height: calc((30vw / 16) * 9);
-    background-color: #003300;
+    /*background-color: #000000;*/
   }
   .speaker_view {
     width: 30vw;
     height: calc((30vw / 16) * 9);
-    background-color: #330000;
   }
 </style>

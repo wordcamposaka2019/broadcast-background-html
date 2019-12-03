@@ -10,6 +10,7 @@
 html, body {
   padding: 0;
   margin: 0;
+  background-color: #65B0D4;
 }
 
 #app {
@@ -23,7 +24,9 @@ html, body {
 #wrap {
   width: 100vw;
   height: calc((100vw / 16) * 9);
-  background-color: #333333;
+  background-image: url('assets/wco2019_bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #nav a {
