@@ -1,28 +1,36 @@
 <template>
-  <div class="hello">
-
+  <div class="event_info">
+    <div class="hashtag">{{ hashtag }}</div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'EventInfo',
+  data () {
+    return {
+      hashtag: '#wcosaka2019',
+    }
+  }
 }
 </script>
 
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  .event_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .hashtag {
+    display: inline-block;
+    padding: calc((1vw / 16) * 9) calc((2vw / 16) * 9);
+    background-color: #1da1f2;
+    font-size: 36em;
+    font-weight: bold;
+    margin-bottom: calc((3vw / 16) * 9);
+    color: #ffffff;
+    border-radius: calc((1vw / 16) * 9);
+    box-shadow: 0 1px 5px rgba(0,0,0,.2);
+  }
 </style>

@@ -41,7 +41,6 @@ export default {
   .session_info {
     width: 70vw;
     height: calc((30vw / 16) * 9);
-    /*background-color: #000000;*/
   }
   .speaker_view {
     width: 30vw;
