@@ -7,9 +7,6 @@
 <script>
 export default {
   name: 'EventInfo',
-  props: {
-    msg: String
-  }
 }
 </script>
 
