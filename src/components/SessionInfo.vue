@@ -39,21 +39,21 @@
     flex: 1;
     padding: calc((4vw / 16) * 9) calc((4vw / 16) * 9) calc((4vw / 16) * 9) 0;
     text-align: left;
-    line-height: 1.7;
+    line-height: 1.5;
   }
   .session_time {
-    margin: 0 0 .5em;
+    margin: 0;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 24em;
   }
   .session_title {
     margin: .5em 0;
-    font-size: 1.5em;
+    font-size: 34em;
   }
   .speaker_name {
-    margin: .5em 0 0;
+    margin: 0;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 28em;
   }
 </style>
 
