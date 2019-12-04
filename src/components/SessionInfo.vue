@@ -5,7 +5,6 @@
         <img :src="speakerIcon">
       </div>
       <div class="data">
-        <div class="session_time">{{ sessionStart }} - {{ sessionEnd }}</div>
         <div class="session_title">{{ sessionTitle }}</div>
         <div class="speaker_name">{{ speakerName }}</div>
       </div>
@@ -39,7 +38,7 @@
     flex: 1;
     padding: calc((4vw / 16) * 9) calc((4vw / 16) * 9) calc((4vw / 16) * 9) 0;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.2;
   }
   .session_time {
     margin: 0;
@@ -47,13 +46,14 @@
     font-size: 24em;
   }
   .session_title {
-    margin: .5em 0;
-    font-size: 34em;
+    margin: 0 0 .5em;
+    font-size: 48em;
+
   }
   .speaker_name {
     margin: 0;
     font-weight: bold;
-    font-size: 28em;
+    font-size: 30em;
   }
 </style>
 

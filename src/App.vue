@@ -10,7 +10,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  background-color: #65B0D4;
+  background-color: #88CDE5;
 }
 
 #app {
@@ -18,7 +18,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 #wrap {
@@ -27,14 +27,5 @@ html, body {
   background-image: url('assets/wco2019_bg.png');
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
