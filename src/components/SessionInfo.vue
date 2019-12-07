@@ -72,7 +72,7 @@ export default {
       session: {
         op: {
           startTime: '10:10:00',
-          endTime: '11:40:00',
+          endTime: '10:40:00',
           name: 'WordCamp Osaka 2019 実行委員長',
           title: 'WordCamp Osaka 2019 開会挨拶',
           description: '',
@@ -188,7 +188,7 @@ export default {
     const nowTime = hh + ':' + mi + ':' + se;
     console.log(nowTime);
 
-    if ( nowTime >= this.session.op.startTime && nowTime < this.session.session01.endTime ) {
+    if ( nowTime >= this.session.op.startTime && nowTime < this.session.op.endTime ) {
       const sessionData = this.session.op;
       this.speakerName = 'Speaker : ' + sessionData.name;
       this.speakerIcon = 'https://pbs.twimg.com/profile_images/1162163787421454336/9oHVfKNL_400x400.jpg';
@@ -209,7 +209,7 @@ export default {
       this.sessionTitle = sessionData.title;
       this.sessionStart = sessionData.startTime;
       this.sessionEnd = sessionData.endTime;
-    } else if ( nowTime >= this.session.lt1.startTime && nowTime < this.session.session03.endTime ) {
+    } else if ( nowTime >= this.session.lt1.startTime && nowTime < this.session.lt1.endTime ) {
       const sessionData = this.session.lt1;
       this.speakerName = 'Speaker : ' + sessionData.name;
       this.speakerIcon = 'https://pbs.twimg.com/profile_images/1162163787421454336/9oHVfKNL_400x400.jpg';
@@ -244,21 +244,21 @@ export default {
       this.sessionTitle = sessionData.title;
       this.sessionStart = sessionData.startTime;
       this.sessionEnd = sessionData.endTime;
-    } else if ( nowTime >= this.session.lt2.startTime && nowTime < this.session.session03.endTime ) {
+    } else if ( nowTime >= this.session.lt2.startTime && nowTime < this.session.lt2.endTime ) {
       const sessionData = this.session.lt2;
       this.speakerName = 'Speaker : ' + sessionData.name;
       this.speakerIcon = 'https://pbs.twimg.com/profile_images/1162163787421454336/9oHVfKNL_400x400.jpg';
       this.sessionTitle = sessionData.title;
       this.sessionStart = sessionData.startTime;
       this.sessionEnd = sessionData.endTime;
-    } else if ( nowTime >= this.session.ed.startTime && nowTime < this.session.session03.endTime ) {
+    } else if ( nowTime >= this.session.ed.startTime && nowTime < this.session.ed.endTime ) {
       const sessionData = this.session.ed;
       this.speakerName = 'Speaker : ' + sessionData.name;
       this.speakerIcon = 'https://pbs.twimg.com/profile_images/1162163787421454336/9oHVfKNL_400x400.jpg';
       this.sessionTitle = sessionData.title;
       this.sessionStart = sessionData.startTime;
       this.sessionEnd = sessionData.endTime;
-    } else if ( nowTime >= this.session.after.startTime && nowTime < this.session.session03.endTime ) {
+    } else if ( nowTime >= this.session.after.startTime && nowTime < this.session.after.endTime ) {
       const sessionData = this.session.after;
       this.speakerName = 'Speaker : ' + sessionData.name;
       this.speakerIcon = 'https://pbs.twimg.com/profile_images/1162163787421454336/9oHVfKNL_400x400.jpg';
