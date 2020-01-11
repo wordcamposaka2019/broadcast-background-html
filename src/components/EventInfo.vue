@@ -9,7 +9,7 @@ export default {
   name: 'EventInfo',
   data () {
     return {
-      hashtag: '#wcosaka2019',
+      hashtag: '#wpmeetuposaka',
     }
   }
 }
