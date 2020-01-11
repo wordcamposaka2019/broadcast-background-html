@@ -21,6 +21,8 @@ export default {
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    background-image: url("../assets/images/kwpmo_5.png");
+    background-size: contain;
   }
   .hashtag {
     display: inline-block;

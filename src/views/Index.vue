@@ -37,10 +37,12 @@ export default {
   .event_info {
     width: 30vw;
     height: calc((70vw / 16) * 9);
+    background-color: #ffd200;
   }
   .session_info {
     width: 70vw;
     height: calc((30vw / 16) * 9);
+    background-color: #333333;
   }
   .speaker_view {
     width: 30vw;
